@@ -64,21 +64,17 @@ def area(forma, argumentos):
 # 1. es dificil de usar correctamente.
 # 2. no es facil de extender.
 
-class Circulo():
-    # constructor de la clase circulo
-    def __init__(self, un_radio):
-        self.radio = un_radio 
-    
-    # def area_del_circulo(radio):
-    #     return math.pi * radio**2
+
+
+
+
+class Cuadrado():
+    def __init__(self, lado):
+        self.lado = lado
 
     def area(self):
-        return math.pi * self.radio**2
-
-# circulo_de_ejemplo = Circulo(10)
-# print(circulo_de_ejemplo)
-# print(circulo_de_ejemplo.radio)
-
+        return self.lado * self.lado
+ 
 class FormaGeometrica():
     def __init__():
         return None
