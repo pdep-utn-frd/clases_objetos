@@ -63,3 +63,5 @@ print(area("rectangulo", [10, 50]))
 # Problemas de la solucion:
 # 1. es dificil de usar correctamente.
 # 2. no es facil de extender.
+
+# hola
